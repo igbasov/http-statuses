@@ -51,6 +51,7 @@ var HTTP_STATUSES = {
   REQUESTED_RANGE_NOT_SATISFIABLE: new HttpStatus(416, 'Requested Range not Satisfiable'),
   EXPECTATION_FAILED: new HttpStatus(417, 'Expectation Failed'),
   UNPROCESSABLE_ENTITY: new HttpStatus(422, 'Unprocessable Entity'),
+  LOCKED: new HttpStatus(423, 'Locked'),
   TOO_MANY_REQUESTS: new HttpStatus(429, 'Too Many Requests'),
   INTERNAL_SERVER_ERROR: new HttpStatus(500, 'Internal Server Error'),
   NOT_IMPLEMENTED: new HttpStatus(501, 'Not Implemented'),
